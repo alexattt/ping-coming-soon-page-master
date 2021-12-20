@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./js/index.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <main class="flex-column">
+    <img src="./images/logo.svg" alt="PING logo" class="logo">
+    <div class="title-container">
+      <p class="title">We are launching <span class="title-accent">soon!</span></p>
+      <p class="subscribe">Subscribe and get notified</p>
+      <p id="thank-you-msg" class="thank-you-msg element-invisible">Thank you for subscribing!</p>
+    </div>
+    <div class="form-container flex-row">
+      <div class="input-container flex-column">
+        <input type="email" placeholder="Your email address..." id="email-input" class="email-input">
+        <p id="error-msg" class="error-msg element-invisible">Please provide a valid email address</p>
+      </div>
+      <button id="submit-btn" class="submit-btn">Notify Me</button>
+    </div>
+    <img src="./images/illustration-dashboard.png" alt="PING dashboard illustration" class="illustration">
+  </main>
+  <footer class="flex-column">
+    <div class="social-media-container flex-row">
+      <ion-icon name="logo-facebook"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+      <ion-icon name="logo-instagram"></ion-icon>
+    </div>
+    <p class="copyright">
+      &copy; Copyright Ping. All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>
